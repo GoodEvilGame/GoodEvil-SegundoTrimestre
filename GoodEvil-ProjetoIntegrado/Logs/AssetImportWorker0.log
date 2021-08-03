@@ -15,11 +15,11 @@ C:/Users/lucas/Escola/Projeto Integrado/GoodEvil-SegundoTrimestre/GoodEvil-Proje
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56958
+61623
 Successfully changed project path to: C:/Users/lucas/Escola/Projeto Integrado/GoodEvil-SegundoTrimestre/GoodEvil-ProjetoIntegrado
 C:/Users/lucas/Escola/Projeto Integrado/GoodEvil-SegundoTrimestre/GoodEvil-ProjetoIntegrado
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 65.86 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 39.16 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -35,91 +35,814 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001853 seconds.
+Registered in 0.001799 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.12 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 37.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.023 seconds
+- Completed reload, in  1.032 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000908 seconds.
+Registered in 0.000913 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 34.46 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 35.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.864 seconds
+- Completed reload, in  0.905 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.5 MB.
 System memory in use after: 85.6 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2255.
-Total: 8.055500 ms (FindLiveObjects: 0.193300 ms CreateObjectMapping: 0.078700 ms MarkObjects: 7.602400 ms  DeleteObjects: 0.178800 ms)
+Total: 1.986300 ms (FindLiveObjects: 0.153700 ms CreateObjectMapping: 0.059500 ms MarkObjects: 1.712400 ms  DeleteObjects: 0.059800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Animations
-  artifactKey: Guid(cea7bf65b1d1a3c409ca4c9df6b5d87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations using Guid(cea7bf65b1d1a3c409ca4c9df6b5d87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc760627f7cfe2af351f804cab8a36b2') in 0.031048 seconds
-  Import took 0.036758 seconds .
+  path: Assets/Sprites/damakos/damakos_idle_dir.png
+  artifactKey: Guid(d7a07d07fd2f0044e9dc68b0653ef24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_idle_dir.png using Guid(d7a07d07fd2f0044e9dc68b0653ef24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e939de6a449005d1a9564b531522bd') in 0.446584 seconds
+  Import took 0.449221 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.013653 seconds
-  Import took 0.017176 seconds .
+  Time since last request: 0.000290 seconds.
+  path: Assets/Sprites/damakos/ataque.png
+  artifactKey: Guid(c6e2048bc2e5c4b4cb195d96c598ccc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/ataque.png using Guid(c6e2048bc2e5c4b4cb195d96c598ccc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb26dc8a191ee6ea04e0e254f8e5927') in 0.014091 seconds
+  Import took 0.018616 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.318598 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(6b0929da859f9a84687f7f1d29c234ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(6b0929da859f9a84687f7f1d29c234ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0d3a6e7fc4e75f1df88fedaec02cc0') in 0.007557 seconds
-  Import took 0.010281 seconds .
+  Time since last request: 0.000121 seconds.
+  path: Assets/Sprites/damakos/damakos_andando_esq.png
+  artifactKey: Guid(7452f9780a5c34f4e9aa7931ceb73dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_andando_esq.png using Guid(7452f9780a5c34f4e9aa7931ceb73dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd9138b4aa73c94e7b997d936020bf5') in 0.018324 seconds
+  Import took 0.021842 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.561676 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(2f5238c797d4110499113fb48bdc5909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(2f5238c797d4110499113fb48bdc5909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d8d9cbe85efab63e3ade9358a3a821') in 0.007959 seconds
-  Import took 0.012213 seconds .
+  Time since last request: 0.000148 seconds.
+  path: Assets/Sprites/damakos/damakos_morrendo.png
+  artifactKey: Guid(0ec0f3eaade4ad446a0defed11f5ae99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_morrendo.png using Guid(0ec0f3eaade4ad446a0defed11f5ae99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d31acc43a1fb7dfeac690274ff5d0c') in 0.018018 seconds
+  Import took 0.020602 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(2f5238c797d4110499113fb48bdc5909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(2f5238c797d4110499113fb48bdc5909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d8d9cbe85efab63e3ade9358a3a821') in 0.006545 seconds
-  Import took 0.011244 seconds .
+  Time since last request: 0.000159 seconds.
+  path: Assets/Sprites/damakos/damakos_frente_idle.png
+  artifactKey: Guid(86ed8b64d57511b4da561c4ca893445f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_frente_idle.png using Guid(86ed8b64d57511b4da561c4ca893445f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048e01cbffce5ffcba5a1708c6568df7') in 0.015226 seconds
+  Import took 0.018197 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.165344 seconds.
-  path: Assets/Materials/NoFriction.physicsMaterial2D
-  artifactKey: Guid(895d2b08c033c934db2333c3ad9dd9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/NoFriction.physicsMaterial2D using Guid(895d2b08c033c934db2333c3ad9dd9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9283aa744421b25acba304d9efa6ef1f') in 0.037863 seconds
-  Import took 0.041088 seconds .
+  Time since last request: 0.000195 seconds.
+  path: Assets/Sprites/damakos
+  artifactKey: Guid(50e590cf53d6d434482bd554a3a2e7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos using Guid(50e590cf53d6d434482bd554a3a2e7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903a78c42065c5989d285cca26c6ace0') in 0.008448 seconds
+  Import took 0.011552 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.367052 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa27944bdea339c97c39027c7eea529c') in 0.008901 seconds
-  Import took 0.012662 seconds .
+  Time since last request: 0.000189 seconds.
+  path: Assets/Sprites/damakos/damakos_costas.png
+  artifactKey: Guid(6da8b5907870ffb45bfafbc968424f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_costas.png using Guid(6da8b5907870ffb45bfafbc968424f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69869dcda1e9673a38dd449cdb5b8ed') in 0.031024 seconds
+  Import took 0.033992 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Sprites/damakos/damakos_falando.png
+  artifactKey: Guid(dd5cf158761a3a140b650c702913d426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_falando.png using Guid(dd5cf158761a3a140b650c702913d426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9d92b07f67ecfebee41303774b00c6') in 0.017909 seconds
+  Import took 0.020655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Sprites/damakos/ataque_baixo.png
+  artifactKey: Guid(532fd66d203629846ba54edef2bbeb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/ataque_baixo.png using Guid(532fd66d203629846ba54edef2bbeb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933f9e7fa06ba44492fb11aa5ad75e9e') in 0.013818 seconds
+  Import took 0.016786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Sprites/damakos/damakos_frente.png
+  artifactKey: Guid(cd776e00986f4024f9f7e684b999c84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_frente.png using Guid(cd776e00986f4024f9f7e684b999c84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6074bfc94169e9b1cada55822ab26e89') in 0.013756 seconds
+  Import took 0.017828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Sprites/damakos/damakos_idle_esq.png
+  artifactKey: Guid(f1379f322598def418f24879cbefcaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_idle_esq.png using Guid(f1379f322598def418f24879cbefcaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff18a1f34d2f07f3d38d23a7fc2c9972') in 0.038058 seconds
+  Import took 0.045779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000588 seconds.
+  path: Assets/Sprites/damakos/damakos_andando_dir.png
+  artifactKey: Guid(4012fee0c3bceb144ba13b43a182fce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_andando_dir.png using Guid(4012fee0c3bceb144ba13b43a182fce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531aa50b5c9eb0c4affd78da61541b2e') in 0.047309 seconds
+  Import took 0.054137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Sprites/damakos/damakos_costas_idle.png
+  artifactKey: Guid(2fed9cd94819e0147a6539e7b6ce05b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_costas_idle.png using Guid(2fed9cd94819e0147a6539e7b6ce05b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7e41ef5e12edca6771f5211b7b91ca') in 0.015035 seconds
+  Import took 0.018198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Sprites/damakos/ataque_dir.png
+  artifactKey: Guid(d4fb3bbf1a81ac8409c8a12268abd0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/ataque_dir.png using Guid(d4fb3bbf1a81ac8409c8a12268abd0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30efc90970f9bdf458fc1ea3b34484ed') in 0.013636 seconds
+  Import took 0.017389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Sprites/damakos/ataque_esq.png
+  artifactKey: Guid(fd02a893726696f4f8fc9dbacf7d714c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/ataque_esq.png using Guid(fd02a893726696f4f8fc9dbacf7d714c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0649a170838dd5aa133af714110e005c') in 0.015726 seconds
+  Import took 0.019099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Sprites/damakos/ataque_dir.png
+  artifactKey: Guid(d4fb3bbf1a81ac8409c8a12268abd0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/ataque_dir.png using Guid(d4fb3bbf1a81ac8409c8a12268abd0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30efc90970f9bdf458fc1ea3b34484ed') in 0.007094 seconds
+  Import took 0.010303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.182511 seconds.
+  path: Assets/Sprites/damakos/damakos_frente_idle.png
+  artifactKey: Guid(86ed8b64d57511b4da561c4ca893445f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_frente_idle.png using Guid(86ed8b64d57511b4da561c4ca893445f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4341ad089f8748c0a5b92994a127178') in 0.009244 seconds
+  Import took 0.012549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.420890 seconds.
+  path: Assets/Sprites/damakos/damakos_frente_idle.png
+  artifactKey: Guid(86ed8b64d57511b4da561c4ca893445f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_frente_idle.png using Guid(86ed8b64d57511b4da561c4ca893445f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc4c675267810da170eacd898e3c389') in 0.008679 seconds
+  Import took 0.011679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.341378 seconds.
+  path: Assets/Sprites/damakos/damakos_andando_dir.png
+  artifactKey: Guid(4012fee0c3bceb144ba13b43a182fce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_andando_dir.png using Guid(4012fee0c3bceb144ba13b43a182fce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc98c29647573ac59508a697aafcf91') in 0.011267 seconds
+  Import took 0.018791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Sprites/damakos/damakos_idle_dir.png
+  artifactKey: Guid(d7a07d07fd2f0044e9dc68b0653ef24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_idle_dir.png using Guid(d7a07d07fd2f0044e9dc68b0653ef24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea71239af65a628e748ce771e9f6f8ae') in 0.011361 seconds
+  Import took 0.013889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Sprites/damakos/damakos_andando_esq.png
+  artifactKey: Guid(7452f9780a5c34f4e9aa7931ceb73dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_andando_esq.png using Guid(7452f9780a5c34f4e9aa7931ceb73dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5553ad4bbf3cc6c80a39dd2052cdf608') in 0.009184 seconds
+  Import took 0.012666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/damakos/damakos_morrendo.png
+  artifactKey: Guid(0ec0f3eaade4ad446a0defed11f5ae99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_morrendo.png using Guid(0ec0f3eaade4ad446a0defed11f5ae99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6520dfdac8f8b18dd4302abb5d2338f5') in 0.009792 seconds
+  Import took 0.013370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Sprites/damakos/damakos_costas.png
+  artifactKey: Guid(6da8b5907870ffb45bfafbc968424f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_costas.png using Guid(6da8b5907870ffb45bfafbc968424f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd116a1ab56167cdd1c7d8c45783833') in 0.010355 seconds
+  Import took 0.013768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sprites/damakos/damakos_falando.png
+  artifactKey: Guid(dd5cf158761a3a140b650c702913d426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_falando.png using Guid(dd5cf158761a3a140b650c702913d426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d663f39fec6893e33a96fd8a3f73e3') in 0.013008 seconds
+  Import took 0.017028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Sprites/damakos/damakos_frente.png
+  artifactKey: Guid(cd776e00986f4024f9f7e684b999c84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_frente.png using Guid(cd776e00986f4024f9f7e684b999c84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368df6768ea71f076619e72bdf457e82') in 0.009853 seconds
+  Import took 0.012485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Sprites/damakos/damakos_idle_esq.png
+  artifactKey: Guid(f1379f322598def418f24879cbefcaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_idle_esq.png using Guid(f1379f322598def418f24879cbefcaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f94b916f3c7a9e0a917e05c089d237') in 0.012705 seconds
+  Import took 0.017332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Sprites/damakos/damakos_costas_idle.png
+  artifactKey: Guid(2fed9cd94819e0147a6539e7b6ce05b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_costas_idle.png using Guid(2fed9cd94819e0147a6539e7b6ce05b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5497faf1a83703ac5ee905a2dbee4b2') in 0.015998 seconds
+  Import took 0.018728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001957 seconds.
+  path: Assets/Sprites/damakos/damakos_costas_idle.png
+  artifactKey: Guid(2fed9cd94819e0147a6539e7b6ce05b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_costas_idle.png using Guid(2fed9cd94819e0147a6539e7b6ce05b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5497faf1a83703ac5ee905a2dbee4b2') in 0.005346 seconds
+  Import took 0.008458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.469701 seconds.
+  path: Assets/Sprites/damakos/damakos_frente_idle.png
+  artifactKey: Guid(86ed8b64d57511b4da561c4ca893445f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_frente_idle.png using Guid(86ed8b64d57511b4da561c4ca893445f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165220f8b3d1dbfc4db06ac4229dd793') in 0.017975 seconds
+  Import took 0.021683 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001013 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.844 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2282.
+Total: 2.374900 ms (FindLiveObjects: 0.153800 ms CreateObjectMapping: 0.057900 ms MarkObjects: 2.136400 ms  DeleteObjects: 0.025300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001124 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.874 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2286.
+Total: 1.716800 ms (FindLiveObjects: 0.149900 ms CreateObjectMapping: 0.052500 ms MarkObjects: 1.495800 ms  DeleteObjects: 0.017900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000955 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.852 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2290.
+Total: 1.969000 ms (FindLiveObjects: 0.273100 ms CreateObjectMapping: 0.087200 ms MarkObjects: 1.588800 ms  DeleteObjects: 0.018900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 785.074450 seconds.
+  path: Assets/PlayerMovement.cs
+  artifactKey: Guid(95a8ea230c32b35408b47eb3d2cf5525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerMovement.cs using Guid(95a8ea230c32b35408b47eb3d2cf5525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ffbcaf6222c0f2df37e2a2e64227a4') in 0.416418 seconds
+  Import took 0.420483 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.060527 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.850 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2294.
+Total: 2.683900 ms (FindLiveObjects: 0.176800 ms CreateObjectMapping: 0.060400 ms MarkObjects: 2.351200 ms  DeleteObjects: 0.093700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001333 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.023 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2298.
+Total: 1.604000 ms (FindLiveObjects: 0.196100 ms CreateObjectMapping: 0.062700 ms MarkObjects: 1.331000 ms  DeleteObjects: 0.013100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 861.054198 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(95a8ea230c32b35408b47eb3d2cf5525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(95a8ea230c32b35408b47eb3d2cf5525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868955866906b104eb53983c7017f223') in 0.042245 seconds
+  Import took 0.081028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054569 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(95a8ea230c32b35408b47eb3d2cf5525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(95a8ea230c32b35408b47eb3d2cf5525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868955866906b104eb53983c7017f223') in 0.004448 seconds
+  Import took 0.016744 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.307050 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.829 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2302.
+Total: 1.759600 ms (FindLiveObjects: 0.153000 ms CreateObjectMapping: 0.054300 ms MarkObjects: 1.515100 ms  DeleteObjects: 0.036300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001039 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.811 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2306.
+Total: 1.746800 ms (FindLiveObjects: 0.163700 ms CreateObjectMapping: 0.058000 ms MarkObjects: 1.509800 ms  DeleteObjects: 0.014500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001324 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.954 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2310.
+Total: 2.008400 ms (FindLiveObjects: 0.161300 ms CreateObjectMapping: 0.063300 ms MarkObjects: 1.765800 ms  DeleteObjects: 0.017000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004129 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.950 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2314.
+Total: 1.899000 ms (FindLiveObjects: 0.155900 ms CreateObjectMapping: 0.054000 ms MarkObjects: 1.672200 ms  DeleteObjects: 0.015900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 381.638450 seconds.
+  path: Assets/Sprites/damakos/damakos_idle_dir.png
+  artifactKey: Guid(d7a07d07fd2f0044e9dc68b0653ef24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_idle_dir.png using Guid(d7a07d07fd2f0044e9dc68b0653ef24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2df25546c9e66ceb3925215e526bf4') in 0.103158 seconds
+  Import took 0.123319 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000921 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2323.
+Total: 1.960800 ms (FindLiveObjects: 0.182400 ms CreateObjectMapping: 0.060800 ms MarkObjects: 1.647500 ms  DeleteObjects: 0.068800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 233.209951 seconds.
+  path: Assets/Sprites/damakos/damakos_idle_esq.png
+  artifactKey: Guid(f1379f322598def418f24879cbefcaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_idle_esq.png using Guid(f1379f322598def418f24879cbefcaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4043a51892fa86ce365c672a208ada4b') in 0.060103 seconds
+  Import took 0.078923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.074442 seconds.
+  path: Assets/Sprites/damakos/damakos_costas_idle.png
+  artifactKey: Guid(2fed9cd94819e0147a6539e7b6ce05b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_costas_idle.png using Guid(2fed9cd94819e0147a6539e7b6ce05b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bd7d250d45930aa30d3520aa9ccd44') in 0.042063 seconds
+  Import took 0.049479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.354919 seconds.
+  path: Assets/Animations/Damakos.controller
+  artifactKey: Guid(a620cc0dfd3f3fd4492ff10f0508123f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Damakos.controller using Guid(a620cc0dfd3f3fd4492ff10f0508123f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cb8d0577f7345b5f6b7e3691b68947') in 0.014076 seconds
+  Import took 0.018524 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001232 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.835 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2328.
+Total: 2.407800 ms (FindLiveObjects: 0.168400 ms CreateObjectMapping: 0.058200 ms MarkObjects: 2.159600 ms  DeleteObjects: 0.020400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 982.205575 seconds.
+  path: Assets/Animations/DamakosIdleUp.anim
+  artifactKey: Guid(3238f2247f6c3f944a0ea0e3f7c89d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DamakosIdleUp.anim using Guid(3238f2247f6c3f944a0ea0e3f7c89d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81182205e8683d14eec6e5513157737') in 0.052613 seconds
+  Import took 0.065128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016283 seconds.
+  path: Assets/Animations/DamakosIdleUp.anim
+  artifactKey: Guid(3238f2247f6c3f944a0ea0e3f7c89d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DamakosIdleUp.anim using Guid(3238f2247f6c3f944a0ea0e3f7c89d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81182205e8683d14eec6e5513157737') in 0.007144 seconds
+  Import took 0.011135 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000987 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.807 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2332.
+Total: 2.148100 ms (FindLiveObjects: 0.184200 ms CreateObjectMapping: 0.223200 ms MarkObjects: 1.723100 ms  DeleteObjects: 0.016500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1872.740870 seconds.
+  path: Assets/Sprites/damakos/damakos_andando_dir.png
+  artifactKey: Guid(4012fee0c3bceb144ba13b43a182fce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_andando_dir.png using Guid(4012fee0c3bceb144ba13b43a182fce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cfedb223817c167e70cd59738aa4cf') in 3.031624 seconds
+  Import took 3.182553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.223647 seconds.
+  path: Assets/Animations/DamakosRunRight.anim
+  artifactKey: Guid(06693334bf431fd4aa4d773e10a070f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DamakosRunRight.anim using Guid(06693334bf431fd4aa4d773e10a070f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac2e893c4a5930ca510fb24c625c62e') in 0.170541 seconds
+  Import took 0.257178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.226301 seconds.
+  path: Assets/Animations/DamakosRunDown.anim
+  artifactKey: Guid(6431b123eae18024a939b50cee8ced29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DamakosRunDown.anim using Guid(6431b123eae18024a939b50cee8ced29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7574f6b62586ffd3934fc41240e2378f') in 0.113725 seconds
+  Import took 0.117430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.033239 seconds.
+  path: Assets/Animations/DamakosRunRight.anim
+  artifactKey: Guid(6431b123eae18024a939b50cee8ced29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DamakosRunRight.anim using Guid(6431b123eae18024a939b50cee8ced29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba02eb284cb942e5412f500ca3f268b') in 0.343103 seconds
+  Import took 0.507641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.516058 seconds.
+  path: Assets/Sprites/damakos/damakos_costas.png
+  artifactKey: Guid(6da8b5907870ffb45bfafbc968424f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_costas.png using Guid(6da8b5907870ffb45bfafbc968424f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedad5e42b27e57a24f47c76890b23e8') in 0.675383 seconds
+  Import took 0.680406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.968196 seconds.
+  path: Assets/Sprites/damakos/damakos_frente.png
+  artifactKey: Guid(cd776e00986f4024f9f7e684b999c84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_frente.png using Guid(cd776e00986f4024f9f7e684b999c84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656e966e949f3babb3eec107bfe9c3e8') in 0.306251 seconds
+  Import took 0.413635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.439945 seconds.
+  path: Assets/Sprites/damakos/damakos_andando_esq.png
+  artifactKey: Guid(7452f9780a5c34f4e9aa7931ceb73dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/damakos/damakos_andando_esq.png using Guid(7452f9780a5c34f4e9aa7931ceb73dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ad6d3b7429a6797b4123cae8cafae3') in 0.104038 seconds
+  Import took 0.140331 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000912 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2339.
+Total: 1.794300 ms (FindLiveObjects: 0.185700 ms CreateObjectMapping: 0.063300 ms MarkObjects: 1.528900 ms  DeleteObjects: 0.015700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000934 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2343.
+Total: 2.153200 ms (FindLiveObjects: 0.193800 ms CreateObjectMapping: 0.111600 ms MarkObjects: 1.831400 ms  DeleteObjects: 0.015400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001196 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.039 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2347.
+Total: 2.657300 ms (FindLiveObjects: 0.174200 ms CreateObjectMapping: 0.061700 ms MarkObjects: 2.397400 ms  DeleteObjects: 0.022700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001249 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.844 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2351.
+Total: 1.814800 ms (FindLiveObjects: 0.156800 ms CreateObjectMapping: 0.055000 ms MarkObjects: 1.587500 ms  DeleteObjects: 0.014400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.131 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 3.009400 ms (FindLiveObjects: 0.529200 ms CreateObjectMapping: 0.146700 ms MarkObjects: 2.308800 ms  DeleteObjects: 0.022500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 915.172764 seconds.
+  path: Assets/Animations/DamakosRunDown.anim
+  artifactKey: Guid(fa8f13c33f2f8114687edf4479fac6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DamakosRunDown.anim using Guid(fa8f13c33f2f8114687edf4479fac6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0094cba1b6a13dbe6dd3a676a90b57d6') in 0.034666 seconds
+  Import took 0.052701 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000921 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.896 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2359.
+Total: 2.157500 ms (FindLiveObjects: 0.274300 ms CreateObjectMapping: 0.071000 ms MarkObjects: 1.796700 ms  DeleteObjects: 0.014500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.251746 seconds.
+  path: Assets/Animations/DamakosRunUpp.anim
+  artifactKey: Guid(fa8f13c33f2f8114687edf4479fac6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DamakosRunUpp.anim using Guid(fa8f13c33f2f8114687edf4479fac6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987beb8f65b6a3052660b146117812a0') in 0.018116 seconds
+  Import took 0.021009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.392024 seconds.
+  path: Assets/Animations/DamakosRunUp.anim
+  artifactKey: Guid(0ea6589a7910202449b11e841b862aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DamakosRunUp.anim using Guid(0ea6589a7910202449b11e841b862aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a897ec793c2d574c2460b137143b33ea') in 0.012139 seconds
+  Import took 0.025952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.935235 seconds.
+  path: Assets/Animations/DamakosRunDown.anim
+  artifactKey: Guid(0ea6589a7910202449b11e841b862aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DamakosRunDown.anim using Guid(0ea6589a7910202449b11e841b862aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fe78dd21b044e90798af27832f1406') in 0.017528 seconds
+  Import took 0.035815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.397199 seconds.
+  path: Assets/Animations/DamakosRunUp.anim
+  artifactKey: Guid(fa8f13c33f2f8114687edf4479fac6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DamakosRunUp.anim using Guid(fa8f13c33f2f8114687edf4479fac6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a6718d095054fce8341d9f74d92119') in 0.008525 seconds
+  Import took 0.031256 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001355 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.305 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2363.
+Total: 2.458600 ms (FindLiveObjects: 0.200700 ms CreateObjectMapping: 0.072000 ms MarkObjects: 2.145000 ms  DeleteObjects: 0.039100 ms)
+
