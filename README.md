@@ -16,5 +16,6 @@ GoodEvil é um game desenvolvido pelos alunos da Escola Tecnica de Eletrônica F
 GoodEvil é um RPG de aventura que se passa em um mundo mágico. O personagem principal, Damakos é de uma raça chamada Tiefling que é considerada inferior aos Elfos, dominantes nesse universo. O jogo conta a saga do personagem dentro da escola de magia e do torneio escolar para se tornar forte e respeitado.
 O projeto focará, inicialmente na parte inicial do jogo, quando Damakos conhece a escola e seus colegas. 
 Para jogar ou acompanhar o desenolvimento em tempo real, basta baixar o repositório, usando o software git e a seguinte linha de comando:
-'git clone https://github.com/GoodEvilGame/GoodEvil-SegundoTrimestre.git'
+ 
+    $ git clone https://github.com/GoodEvilGame/GoodEvil-SegundoTrimestre.git
 
