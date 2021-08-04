@@ -1,2 +1,3 @@
-    Reunião 03/08
-Criação do repositório no GitHub e do projeto no Unity.
+Reunião 03/08
+    Criação do repositório no GitHub e do projeto no Unity.
+    Presença: Arthur, Francisco, João Victor, Lucas, Pedro, Vinícius
