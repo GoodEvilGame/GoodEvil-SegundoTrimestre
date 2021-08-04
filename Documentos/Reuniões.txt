@@ -1,0 +1,2 @@
+    Reunião 03/08
+Criação do repositório no GitHub e do projeto no Unity.
