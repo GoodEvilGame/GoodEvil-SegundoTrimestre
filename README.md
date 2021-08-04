@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/79937589/128011790-eb0ff5fc-5388-47a9-a5fc-e603d3b65da4.png)
 
-<h2>Olá, seja bem vindo ao universio de GoodEvil!</h2>
+<h2>Olá, seja bem vindo ao universo de GoodEvil!</h2>
 GoodEvil é um game desenvolvido pelos alunos da Escola Tecnica de Eletrônica Francisco Moreira da Costa (ETE FMC), da turma 35-DS. O desenvolvimento foi feito usando a plataforma Unity, em sua linguagem C# e usando o editor de código Visual Studio Code. A seguir, está listada a equipe de desenvolvimento e suas respectivas funções dentro do grupo:
 <p>
 <li> Arthur Openheimer Vilela - Sprites e cenários ✏️
