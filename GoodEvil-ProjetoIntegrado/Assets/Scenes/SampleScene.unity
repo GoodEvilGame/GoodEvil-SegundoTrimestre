@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 1545327655}
   - component: {fileID: 1545327654}
   m_Layer: 5
-  m_Name: Fala
+  m_Name: CharacterName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -532,8 +532,9 @@ GameObject:
   - component: {fileID: 1696743911}
   - component: {fileID: 1696743913}
   - component: {fileID: 1696743912}
+  - component: {fileID: 1696743914}
   m_Layer: 5
-  m_Name: CharacterText
+  m_Name: Fala
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -591,7 +592,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Example
+  m_Text: 
 --- !u!222 &1696743913
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -600,6 +601,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1696743910}
   m_CullTransparentMesh: 1
+--- !u!114 &1696743914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696743910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf531f21c9b49884b91e1eb53cad93df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: "Sim, \xE9 uma refer\xEAncia a Undertale."
 --- !u!1 &1703797908
 GameObject:
   m_ObjectHideFlags: 0
