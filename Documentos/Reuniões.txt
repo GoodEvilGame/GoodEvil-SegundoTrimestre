@@ -1,3 +1,11 @@
 Reunião 03/08
     Criação do repositório no GitHub e do projeto no Unity.
     Presença: Arthur, Francisco, João Victor, Lucas, Pedro, Vinícius
+
+Reunião 04/08
+    Criação das animações e menu inicial.
+    Presença: Arthur, Francisco, João Victor, Pedro, Vinícius
+
+Reunião 05/08
+    Finalização do roteiro.
+    Presença: Arthur, Francisco, João Victor, Lucas, Pedro, Vinícius
