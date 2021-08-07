@@ -605,7 +605,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SAIR
+  m_text: 'SAIR
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 60758d1e961bc874cb8fcf00607af6a5, type: 2}
   m_sharedMaterial: {fileID: -6966784945131641047, guid: 60758d1e961bc874cb8fcf00607af6a5, type: 2}
@@ -1905,7 +1907,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CONFIGURAR
+  m_text: "OP\xC7\xD5ES"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 60758d1e961bc874cb8fcf00607af6a5, type: 2}
   m_sharedMaterial: {fileID: -6966784945131641047, guid: 60758d1e961bc874cb8fcf00607af6a5, type: 2}
@@ -2075,7 +2077,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CONFIGURAR
+  m_text: "OP\xC7\xD5ES"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 60758d1e961bc874cb8fcf00607af6a5, type: 2}
   m_sharedMaterial: {fileID: -6966784945131641047, guid: 60758d1e961bc874cb8fcf00607af6a5, type: 2}
