@@ -7,8 +7,10 @@ namespace DialogueSystem
 
     public class DialogueBase : MonoBehaviour
     {
-        protected IEnumerator WriteText(string input, Text textHolder)
+        protected IEnumerator WriteText(string input, Text textHolder, Color textColor, Font textFont)
         {
+            textHolder.color = textColor;
+            textHolder.font = textFont;
             for (int i = 0; i < input.Length; i++)
             {
                 textHolder.text += input[i];
