@@ -11,14 +11,20 @@ namespace DialogueSystem
         private Text textHolder;
         [Header("TextOptions")]
         [SerializeField] private string input;
-        [SerializeField] private Color textColor;
-        [SerializeField] private Font textFont;
 
+	 [Header("Character Image")]
+	[SerializeField] private Sprite CharacterSprite;
+	[SerializeField] private Image ImageHolder;
+	
         private void Awake()
         {
             textHolder = GetComponent<Text>();
+	    textHolder.text = "";
 
-            StartCoroutine(WriteText(input, textHolder, textColor, textFont));
+            StartCoroutine(WriteText(input, textHolder));
+		
+	    ImageHolder.sprite = CharacterSprite;
+	    ImageHolder.preserveAspect = true;	
         }
     }
 }
