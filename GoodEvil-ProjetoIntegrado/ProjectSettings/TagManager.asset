@@ -43,3 +43,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Skills
+    uniqueID: 698048083
+    locked: 0

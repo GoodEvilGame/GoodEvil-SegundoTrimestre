@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 5f;
     public Rigidbody2D rb;
     public Animator animator;
     public Vector2 movement;
 
-    private float lastDirection;
+    public string facing;
+    public float speed = 5f;
+
+    private int animDirection;
 
     // Start is called before the first frame update
     void Start()
@@ -29,35 +31,37 @@ public class PlayerMovement : MonoBehaviour
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
+        //movement positive value
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
-        //Setando direção do idle
-        lastDirection = CheckDirection();
-        if(lastDirection != -1)
-        {
-            animator.SetFloat("LastDirection", lastDirection);
-        }
+        //Setting idle direction
+        CheckDirection();
+        animator.SetFloat("LastDirection", animDirection);
     }
 
-    float CheckDirection()
+    void CheckDirection()
     {
         if (movement.x > 0)
         {
-            return 1; //Right
+            facing = "right";
+            animDirection = 1;
         }
         else if (movement.y > 0)
         {
-            return 0; //Up
+            facing = "up";
+            animDirection = 0;
         }
         else if (movement.x < 0)
         {
-            return 3; //Left
+            facing = "left";
+            animDirection = 3;
         }
         else if (movement.y < 0)
         {
-            return 2; //Down
+            facing = "down";
+            animDirection = 2;
         }
-        return -1; //Não esta mais movendo, ou seja, lastDirection ja foi salvo
+
     }
 
 }

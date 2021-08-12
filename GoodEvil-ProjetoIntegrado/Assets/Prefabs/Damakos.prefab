@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7428295949916942231}
   - component: {fileID: 7428295949916942230}
   m_Layer: 0
-  m_Name: Damakos Walking
+  m_Name: Damakos
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
