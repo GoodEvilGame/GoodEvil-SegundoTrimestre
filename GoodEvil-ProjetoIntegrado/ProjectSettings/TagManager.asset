@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Fire
   - Enemy
+  - Back
+  - Up
+  - Music
   layers:
   - Default
   - TransparentFX
