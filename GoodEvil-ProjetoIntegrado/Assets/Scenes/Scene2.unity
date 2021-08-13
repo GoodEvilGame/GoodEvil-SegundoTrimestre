@@ -421,7 +421,7 @@ Transform:
   m_GameObject: {fileID: 188535949}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -10.06, y: -3.06, z: 5.92668}
-  m_LocalScale: {x: 0.85, y: 0.85, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_Children: []
   m_Father: {fileID: 1342198460}
   m_RootOrder: 0
@@ -614,7 +614,7 @@ Transform:
   m_GameObject: {fileID: 305815056}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.182582, y: -4.580701, z: 5.92668}
-  m_LocalScale: {x: 0.85, y: 0.85, z: 1}
+  m_LocalScale: {x: 0.72, y: 0.72, z: 1}
   m_Children: []
   m_Father: {fileID: 1342198460}
   m_RootOrder: 2
@@ -1029,7 +1029,7 @@ Transform:
   m_GameObject: {fileID: 986106877}
   m_LocalRotation: {x: -0, y: -0.9999994, z: -0, w: 0.0010977845}
   m_LocalPosition: {x: -1.86, y: -5.01, z: 5.93}
-  m_LocalScale: {x: 0.8500001, y: 0.85, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_Children: []
   m_Father: {fileID: 1342198460}
   m_RootOrder: 3
@@ -1211,7 +1211,7 @@ Transform:
   m_GameObject: {fileID: 1229626848}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -11.000079, y: -1.9485469, z: 5.92668}
-  m_LocalScale: {x: 0.85, y: 0.85, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_Children: []
   m_Father: {fileID: 1342198460}
   m_RootOrder: 1
@@ -1572,6 +1572,14 @@ PrefabInstance:
     - target: {fileID: 6600582367036448358, guid: df679f27733e6834caaead571588940c, type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6600582367036448358, guid: df679f27733e6834caaead571588940c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6600582367036448358, guid: df679f27733e6834caaead571588940c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6600582367036448358, guid: df679f27733e6834caaead571588940c, type: 3}
       propertyPath: m_LocalPosition.x
