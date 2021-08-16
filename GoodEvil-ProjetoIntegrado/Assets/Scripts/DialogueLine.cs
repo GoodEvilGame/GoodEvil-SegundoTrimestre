@@ -18,16 +18,13 @@ namespace DialogueSystem
         [SerializeField] private Sprite CharacterSprite;
         [SerializeField] private Image ImageHolder;
 
-        [Header("Sound")]
-        [SerializeField] private AudioClip sound;
-
 
         private void Awake()
         {
             textHolder = GetComponent<Text>();
             textHolder.text = "";
 
-            StartCoroutine(WriteText(input, textHolder, textFont, sound));
+            StartCoroutine(WriteText(input, textHolder, textFont));
 
             ImageHolder.sprite = CharacterSprite;
             ImageHolder.preserveAspect = true;
