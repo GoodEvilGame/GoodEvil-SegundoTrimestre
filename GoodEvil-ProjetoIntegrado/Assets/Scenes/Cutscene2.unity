@@ -984,6 +984,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: b7b71d8ea23e13046ad18cee11e76344, type: 3}
   ImageHolder: {fileID: 1076868093}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &53489669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1198,6 +1199,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: d551b64bd206b3f4f9ff0a6e26cbdfb1, type: 3}
   ImageHolder: {fileID: 1441888520}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &77475908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1743,6 +1745,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: e399a31bdd8de944eadd148e2c34f60b, type: 3}
   ImageHolder: {fileID: 2047737295}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &136265624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2106,6 +2109,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: b7b71d8ea23e13046ad18cee11e76344, type: 3}
   ImageHolder: {fileID: 1146983188}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &174111621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3125,6 +3129,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 4a0e8bff56aeb37459a1ee3936372094, type: 3}
   ImageHolder: {fileID: 20283392}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &278080732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4371,6 +4376,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 768a8edec5307364c93d8b2d507db406, type: 3}
   ImageHolder: {fileID: 719081696}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &363796077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5219,6 +5225,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: b7b71d8ea23e13046ad18cee11e76344, type: 3}
   ImageHolder: {fileID: 280274870}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &431386906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5499,6 +5506,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: b7b71d8ea23e13046ad18cee11e76344, type: 3}
   ImageHolder: {fileID: 916422205}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &452733665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6778,6 +6786,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 768a8edec5307364c93d8b2d507db406, type: 3}
   ImageHolder: {fileID: 36708645}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &575869275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6952,6 +6961,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 58d1cad43259be941a679632c104e949, type: 3}
   ImageHolder: {fileID: 1272248090}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &605114393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7613,6 +7623,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 1911fe810fbb1144497a67f18ecb1b2a, type: 3}
   ImageHolder: {fileID: 1230234228}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &673390761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7830,6 +7841,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: b7b71d8ea23e13046ad18cee11e76344, type: 3}
   ImageHolder: {fileID: 835266579}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &694356763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8386,6 +8398,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: e399a31bdd8de944eadd148e2c34f60b, type: 3}
   ImageHolder: {fileID: 1417038579}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &727057457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8632,6 +8645,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 768a8edec5307364c93d8b2d507db406, type: 3}
   ImageHolder: {fileID: 389923779}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &754114592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8859,6 +8873,147 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &786513224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 786513227}
+  - component: {fileID: 786513226}
+  - component: {fileID: 786513225}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &786513225
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786513224}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &786513226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786513224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32aca3364c944924694c1661359c79d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 786513225}
+--- !u!4 &786513227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786513224}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &790483682
 GameObject:
   m_ObjectHideFlags: 0
@@ -9595,6 +9750,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 1911fe810fbb1144497a67f18ecb1b2a, type: 3}
   ImageHolder: {fileID: 1052772631}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &862203992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9692,6 +9848,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: b7b71d8ea23e13046ad18cee11e76344, type: 3}
   ImageHolder: {fileID: 1036999247}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &862262865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9788,6 +9945,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: d551b64bd206b3f4f9ff0a6e26cbdfb1, type: 3}
   ImageHolder: {fileID: 1173164677}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &869107140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10336,6 +10494,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: b7b71d8ea23e13046ad18cee11e76344, type: 3}
   ImageHolder: {fileID: 1435766366}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &943340568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10626,6 +10785,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: b7b71d8ea23e13046ad18cee11e76344, type: 3}
   ImageHolder: {fileID: 1971195092}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &991962164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11280,6 +11440,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 477a2cb1de54e08469cd79230b46fb6f, type: 3}
   ImageHolder: {fileID: 1935619445}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1045094047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11736,6 +11897,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: b7b71d8ea23e13046ad18cee11e76344, type: 3}
   ImageHolder: {fileID: 40290735}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1098488229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12924,6 +13086,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: b7b71d8ea23e13046ad18cee11e76344, type: 3}
   ImageHolder: {fileID: 251396579}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1203044454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13020,6 +13183,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 1911fe810fbb1144497a67f18ecb1b2a, type: 3}
   ImageHolder: {fileID: 336081649}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1210853979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13729,6 +13893,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: b7b71d8ea23e13046ad18cee11e76344, type: 3}
   ImageHolder: {fileID: 1014659323}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1242005094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14142,6 +14307,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 21d78a95c4f248c44b00282ea981e57a, type: 3}
   ImageHolder: {fileID: 1709134162}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1282378015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14422,6 +14588,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 477a2cb1de54e08469cd79230b46fb6f, type: 3}
   ImageHolder: {fileID: 2070350084}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1289082006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15041,6 +15208,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: e399a31bdd8de944eadd148e2c34f60b, type: 3}
   ImageHolder: {fileID: 803974493}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1338946303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15216,6 +15384,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 4a0e8bff56aeb37459a1ee3936372094, type: 3}
   ImageHolder: {fileID: 1981651590}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1343280524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16122,6 +16291,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 954d0c593506d3446baa655a5d85c8b8, type: 3}
   ImageHolder: {fileID: 219299174}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1466293423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16988,6 +17158,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: b7b71d8ea23e13046ad18cee11e76344, type: 3}
   ImageHolder: {fileID: 1823527247}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1513875683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17084,6 +17255,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: d551b64bd206b3f4f9ff0a6e26cbdfb1, type: 3}
   ImageHolder: {fileID: 610086803}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1525790980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18127,6 +18299,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 58d1cad43259be941a679632c104e949, type: 3}
   ImageHolder: {fileID: 1677087962}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1613530082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18302,6 +18475,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: e399a31bdd8de944eadd148e2c34f60b, type: 3}
   ImageHolder: {fileID: 493751343}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1623866953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18783,6 +18957,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: b7b71d8ea23e13046ad18cee11e76344, type: 3}
   ImageHolder: {fileID: 1767672406}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1661274187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19100,6 +19275,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: b7b71d8ea23e13046ad18cee11e76344, type: 3}
   ImageHolder: {fileID: 328928468}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1683027666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20403,6 +20579,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 58d1cad43259be941a679632c104e949, type: 3}
   ImageHolder: {fileID: 568480723}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1813591287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20880,6 +21057,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: e399a31bdd8de944eadd148e2c34f60b, type: 3}
   ImageHolder: {fileID: 1560969413}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1827784050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21055,6 +21233,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: b7b71d8ea23e13046ad18cee11e76344, type: 3}
   ImageHolder: {fileID: 1231900669}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1860183570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21226,6 +21405,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 768a8edec5307364c93d8b2d507db406, type: 3}
   ImageHolder: {fileID: 1878193770}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1884317594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21322,6 +21502,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: b7b71d8ea23e13046ad18cee11e76344, type: 3}
   ImageHolder: {fileID: 941307322}
+  txtSound: {fileID: 0}
 --- !u!114 &1888772026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21458,6 +21639,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: b7b71d8ea23e13046ad18cee11e76344, type: 3}
   ImageHolder: {fileID: 565943289}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1899649207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21974,6 +22156,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: b7b71d8ea23e13046ad18cee11e76344, type: 3}
   ImageHolder: {fileID: 988055075}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1941314893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22070,6 +22253,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 58d1cad43259be941a679632c104e949, type: 3}
   ImageHolder: {fileID: 176944090}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &1948137151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23835,6 +24019,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: d551b64bd206b3f4f9ff0a6e26cbdfb1, type: 3}
   ImageHolder: {fileID: 551449463}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &2124351526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24013,6 +24198,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: d551b64bd206b3f4f9ff0a6e26cbdfb1, type: 3}
   ImageHolder: {fileID: 1991342711}
+  txtSound: {fileID: 8300000, guid: 6d0139e177149b34a800e847c55d5b2a, type: 3}
 --- !u!114 &2134260952
 MonoBehaviour:
   m_ObjectHideFlags: 0
