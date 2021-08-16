@@ -544,6 +544,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 08e0daa17a0fc9344a2006fa046da5b5, type: 3}
   ImageHolder: {fileID: 576010452}
+  txtSound: {fileID: 0}
 --- !u!114 &157066255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -664,7 +665,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 197243620}
   m_LocalRotation: {x: -0, y: -0.9998566, z: -0, w: -0.016935138}
-  m_LocalPosition: {x: -215.1558, y: -159.4876, z: 36.500935}
+  m_LocalPosition: {x: -214.64, y: -159.65, z: 36.5}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1911339742}
@@ -836,7 +837,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8345744803584909128, guid: df679f27733e6834caaead571588940c, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df679f27733e6834caaead571588940c, type: 3}
@@ -1090,6 +1091,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 4843bf657b65b764fa72cd3e0e47139e, type: 3}
   ImageHolder: {fileID: 1266291626}
+  txtSound: {fileID: 0}
 --- !u!114 &380282436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1716,6 +1718,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: e16d1ad80ae3a6c40939ff1b51100bfc, type: 3}
   ImageHolder: {fileID: 1909473252}
+  txtSound: {fileID: 0}
 --- !u!114 &521849534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1831,7 +1834,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -7701115356653617536, guid: 7a5aed1ea2939ed479f443d24e3e20bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2266,6 +2269,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 703c7264d1f6324448e0d2517746239f, type: 3}
   ImageHolder: {fileID: 533010218}
+  txtSound: {fileID: 0}
 --- !u!114 &565626333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2512,6 +2516,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: e16d1ad80ae3a6c40939ff1b51100bfc, type: 3}
   ImageHolder: {fileID: 1772973160}
+  txtSound: {fileID: 0}
 --- !u!114 &591519916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4131,6 +4136,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 2a37e2c20c9d55747900fa23137d8bc4, type: 3}
   ImageHolder: {fileID: 622885061}
+  txtSound: {fileID: 0}
 --- !u!114 &996835434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4757,6 +4763,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 14f274795e9364f4ba274f1dd561bd49, type: 3}
   ImageHolder: {fileID: 605205817}
+  txtSound: {fileID: 0}
 --- !u!114 &1170531013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5639,6 +5646,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 3b6b32cc99b85864486399be691f5c59, type: 3}
   ImageHolder: {fileID: 1265369165}
+  txtSound: {fileID: 0}
 --- !u!114 &1424016370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5849,7 +5857,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3b2c2178096cf3f4cabf847cbeb35e39, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6199,7 +6207,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: e235cadf1d7bdf24bb7839180b3dd9f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6219,7 +6227,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1546886903}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -215.70581, y: -160.0176, z: 36.350933}
+  m_LocalPosition: {x: -216.02, y: -160.09, z: 36.350933}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1911339742}
@@ -6238,7 +6246,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.020254612, y: -0.17216396}
+  m_Offset: {x: 0.020254612, y: -0.43819642}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6249,7 +6257,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8657427, y: 1.6556721}
+  m_Size: {x: 0.8657427, y: 1.1236072}
   m_EdgeRadius: 0
 --- !u!1 &1633534181
 GameObject:
@@ -6305,6 +6313,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 2d0a6c7ab908d1249ae7f06d487655e2, type: 3}
   ImageHolder: {fileID: 1499913841}
+  txtSound: {fileID: 0}
 --- !u!114 &1633534184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6531,6 +6540,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 2a37e2c20c9d55747900fa23137d8bc4, type: 3}
   ImageHolder: {fileID: 897013286}
+  txtSound: {fileID: 0}
 --- !u!1 &1703797908
 GameObject:
   m_ObjectHideFlags: 0
@@ -7606,6 +7616,7 @@ MonoBehaviour:
   textFont: {fileID: 0}
   CharacterSprite: {fileID: 21300000, guid: 3671e287587e22f459a06ffd184d37ef, type: 3}
   ImageHolder: {fileID: 583683438}
+  txtSound: {fileID: 0}
 --- !u!114 &1929201481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7946,7 +7957,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 8517273594836090940, guid: c017a08b9e4653a4180d536e4b82f543, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
