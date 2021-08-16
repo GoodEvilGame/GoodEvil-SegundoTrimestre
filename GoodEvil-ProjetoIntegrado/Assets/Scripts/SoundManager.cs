@@ -1,31 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(AudioSource))]
-public class Bullet : MonoBehaviour
-{   
-    public AudioClip vandal;
-    AudioSource audioSource;
-    public float speed = 40f;
-    public Rigidbody2D rb;
-    public string TagE;
-    public float Direction;
-
-    void Start()
+public class SoundManager : MonoBehaviour
+{
+    public static SoundManager instance {get; private set;}
+    [SerializeField]private AudioSource source;
+    // Start is called before the first frame update
+    void Awake()
     {
-        audioSource = GetComponent<AudioSource>();
-        audioSource.Play();
-        rb.velocity =  new Vector2(Direction * speed, 0);
+        instance = this;
+        source = GetComponent<AudioSource>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.gameObject.CompareTag($"{TagE}") || collision.gameObject.CompareTag("plataform"))
-        {
-            Destroy(gameObject);
-        }
+    public void PlaySound(AudioClip sans){
+        source.PlayOneShot(sans);
     }
-
-
 }

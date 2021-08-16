@@ -14,20 +14,23 @@ namespace DialogueSystem
         [SerializeField] private string input;
         [SerializeField] private Font textFont;
 
-	 [Header("Character Image")]
-	[SerializeField] private Sprite CharacterSprite;
-	[SerializeField] private Image ImageHolder;
+        [Header("Character Image")]
+        [SerializeField] private Sprite CharacterSprite;
+        [SerializeField] private Image ImageHolder;
 
-	
+        [Header("Sound")]
+        [SerializeField] private AudioClip sound;
+
+
         private void Awake()
         {
             textHolder = GetComponent<Text>();
-	    textHolder.text = "";
+            textHolder.text = "";
 
-            StartCoroutine(WriteText(input, textHolder, textFont));
-		
-	    ImageHolder.sprite = CharacterSprite;
-	    ImageHolder.preserveAspect = true;	
+            StartCoroutine(WriteText(input, textHolder, textFont, sound));
+
+            ImageHolder.sprite = CharacterSprite;
+            ImageHolder.preserveAspect = true;
         }
     }
 }
