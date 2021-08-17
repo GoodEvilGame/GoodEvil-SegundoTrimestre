@@ -13,3 +13,21 @@ Reunião 05/08
 Reunião 10/08
     Finalização do mapa mental e do cenário da entrada da escola, progresso na criação da interação com a placa da
     estande de troféus.
+    Presença: Arthur, Francisco, João Victor, Lucas, Pedro, Vinícius
+
+Reunião 11/08
+    Finalização transição de tela, easter egg e sons do menu.
+    Presença: Arthur, Francisco, João Victor, Lucas, Pedro, Vinícius
+
+Reunião 12/08
+    Finalização sprites dos personagens secundários e fireballs.
+    Presença: Arthur, Francisco, João Victor, Lucas, Pedro, Vinícius
+
+Reunião 13/08
+    Correção cutscenes.
+    Presença: Arthur, Francisco, João Victor, Lucas, Pedro, Vinícius
+
+Reunião 16/08
+    Adição diálogos e áudios nos diálogos, finalização códigos skills, cura e mana. Correção do cenário do tutorial.
+    Presença: Arthur, Francisco, João Victor, Lucas, Pedro, Vinícius
+    
