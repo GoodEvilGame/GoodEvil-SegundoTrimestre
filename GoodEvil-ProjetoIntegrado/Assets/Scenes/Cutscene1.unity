@@ -4026,7 +4026,7 @@ GameObject:
   - component: {fileID: 1009180244}
   - component: {fileID: 1009180243}
   m_Layer: 0
-  m_Name: CorridorMusic
+  m_Name: OutsideMusic
   m_TagString: Music
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4044,7 +4044,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17df1c05934a69543afdf4430f3b6368, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CorridorMusic: {fileID: 1009180244}
 --- !u!82 &1009180244
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4055,8 +4054,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bb212335b29369c4895f43c465370d3a, type: 3}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 8300000, guid: 9e84f2f03be90be4dae9680dc65a3e44, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 0.25
   m_Pitch: 1
   Loop: 1
