@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7801594354792795601}
   m_Layer: 0
   m_Name: FIreBallBig
-  m_TagString: Fire
+  m_TagString: BigFire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

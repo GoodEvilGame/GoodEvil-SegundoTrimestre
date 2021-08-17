@@ -5,6 +5,7 @@ using UnityEngine;
 public class Reader : MonoBehaviour
 {
     public GameObject placa;
+    public GameObject DialogueBox;
     public bool trigger;
 
 
@@ -27,6 +28,14 @@ public class Reader : MonoBehaviour
             {
                 placa.SetActive(true);
             }
+            if (DialogueBox.activeInHierarchy)
+            {
+                DialogueBox.SetActive(false);
+            }
+            else
+            {
+                DialogueBox.SetActive(true);
+            }
 
         }
     }
@@ -44,6 +53,7 @@ public class Reader : MonoBehaviour
         {
             trigger = false;
             placa.SetActive(false);
+            DialogueBox.SetActive(false);
         }
     }
 }
