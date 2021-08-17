@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2022453544708523612
+--- !u!1 &6006835702795087119
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,13 +8,15 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6600582367036448358}
-  - component: {fileID: 8345744803584909128}
-  - component: {fileID: 8603473963792565336}
-  - component: {fileID: 4992641825614462327}
-  - component: {fileID: 1175900846028024448}
-  - component: {fileID: 6105183165579969051}
-  - component: {fileID: 2022453544708523587}
+  - component: {fileID: 6006835702795087126}
+  - component: {fileID: 6006835702795087125}
+  - component: {fileID: 6006835702795087124}
+  - component: {fileID: 6006835702795087115}
+  - component: {fileID: 6006835702795087114}
+  - component: {fileID: 6006835702795087113}
+  - component: {fileID: 6006835702795087112}
+  - component: {fileID: 6006835702795087127}
+  - component: {fileID: -5580031166246735844}
   m_Layer: 0
   m_Name: Damakos
   m_TagString: Player
@@ -22,27 +24,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6600582367036448358
+--- !u!4 &6006835702795087126
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2022453544708523612}
+  m_GameObject: {fileID: 6006835702795087119}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.18, y: -0.51, z: 0}
+  m_LocalPosition: {x: -6.75, y: -0.51, z: 0}
   m_LocalScale: {x: 0.85, y: 0.85, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &8345744803584909128
+--- !u!212 &6006835702795087125
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2022453544708523612}
+  m_GameObject: {fileID: 6006835702795087119}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -88,14 +90,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &8603473963792565336
+--- !u!50 &6006835702795087124
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2022453544708523612}
+  m_GameObject: {fileID: 6006835702795087119}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -109,30 +111,31 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &4992641825614462327
+--- !u!114 &6006835702795087115
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2022453544708523612}
+  m_GameObject: {fileID: 6006835702795087119}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95a8ea230c32b35408b47eb3d2cf5525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  rb: {fileID: 8603473963792565336}
-  animator: {fileID: 1175900846028024448}
+  rb: {fileID: 6006835702795087124}
+  animator: {fileID: 6006835702795087114}
   movement: {x: 0, y: 0}
---- !u!95 &1175900846028024448
+  facing: 
+  speed: 5
+--- !u!95 &6006835702795087114
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2022453544708523612}
+  m_GameObject: {fileID: 6006835702795087119}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: a620cc0dfd3f3fd4492ff10f0508123f, type: 2}
@@ -144,13 +147,13 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!61 &6105183165579969051
+--- !u!61 &6006835702795087113
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2022453544708523612}
+  m_GameObject: {fileID: 6006835702795087119}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 895d2b08c033c934db2333c3ad9dd9fa, type: 2}
@@ -170,15 +173,51 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.85804427, y: 1.1652402}
   m_EdgeRadius: 0
---- !u!114 &2022453544708523587
+--- !u!114 &6006835702795087112
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2022453544708523612}
+  m_GameObject: {fileID: 6006835702795087119}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d27c48e66a5ce5a4a840db5144a35696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6006835702795087127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6006835702795087119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf440f12e90c76949b151cbf791a97cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  facing: 
+  healthManager: {fileID: 0}
+  fireBallSmall: {fileID: 4377703064843740874, guid: 86fed04854292e3469193e23ce2408dd, type: 3}
+  fireBallBig: {fileID: 7009520003991146465, guid: c4f85a849422c864ca74b89ac66c2fce, type: 3}
+  skillDirection: {x: 0, y: 0}
+  listAllies: []
+--- !u!114 &-5580031166246735844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6006835702795087119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12fdb65f669bfd0428c7d04dca768bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curHealth: 0
+  maxHealth: 100
+  regenHealth: 0.5
+  curMana: 0
+  maxMana: 10
+  regenMana: 0.5
