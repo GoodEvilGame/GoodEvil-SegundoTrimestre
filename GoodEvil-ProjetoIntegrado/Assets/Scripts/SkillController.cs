@@ -6,33 +6,51 @@ public class SkillController : MonoBehaviour
 {
     public string facing;
 
-    public int curSkillInvokes = 0;
-    public int maxSkillInvokes = 1;
+    public HealthManager healthManager;
+    public GameObject fireBallSmall;
+    public GameObject fireBallBig;
     public Vector2 skillDirection;
-    public GameObject skillPrefab;
     private Vector3 pos;
+    public List<string> listAllies = new List<string>();
 
     // Start is called before the first frame update
     void Start()
     {
-
+        healthManager = GetComponent<HealthManager>();
+        listAllies.Add(gameObject.tag);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        //Escuta as teclas vinculada a cada skill
+        if (Input.GetKeyDown(KeyCode.Mouse0)) InstanciateSkill(fireBallSmall);
+        if (Input.GetKeyDown(KeyCode.Mouse1)) InstanciateSkill(fireBallBig);
+    }
+
+    void InstanciateSkill(GameObject skillPrefab)
+    {
+        //Pega a mana da skill
+        int manaCost = skillPrefab.GetComponent<skill>().manaCost;
+
+        //Tenta reduzir a mana, se o valor do custo de mana da skill for maior que a mana atual do jogador a sill nao sera instanciada
+        try{
+            healthManager.ReduceMana(manaCost);
+        }
+        catch(System.ArgumentException e)
         {
-            //Get the abstract direction from Player movement scrpit
-            facing = gameObject.GetComponent<PlayerMovement>().facing;
+            Debug.Log(e.Message);
+            return;
+        }
 
-            //Get the vector3 position ajustment of this direction
-            pos = CreateSkillPosition();
+        facing = gameObject.GetComponent<PlayerMovement>().facing;
 
-            // Instantiate at player position + ajust and direction by rotating the object.
-            GameObject skill = Instantiate(skillPrefab, pos, Quaternion.identity);
-            skill.GetComponent<FireBall001>().Init(skillDirection);
-        }   
+        //Instancia com uma posição ajustada
+        pos = CreateSkillPosition();
+        GameObject skill = Instantiate(skillPrefab, pos, Quaternion.identity);
+
+        //Move a skill com a direção que o player esta olhando
+        skill.GetComponent<skill>().Init(skillDirection, listAllies);
     }
 
     Vector3 CreateSkillPosition()
@@ -63,5 +81,4 @@ public class SkillController : MonoBehaviour
         }
     }
 
-   
 }
