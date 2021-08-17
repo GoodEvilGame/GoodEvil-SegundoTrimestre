@@ -7,7 +7,6 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
     public Vector2 movement;
-
     public string facing;
     public float speed = 5f;
 
@@ -16,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      
+
     }
 
     // Update is called once per frame
@@ -29,8 +28,10 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+       
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
+
         //movement positive value
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
