@@ -1873,3 +1873,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 119.618395 seconds.
+  path: Assets/Prefabs/Damakos.prefab
+  artifactKey: Guid(a310b6fb23590cc44bde4288e940cce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Damakos.prefab using Guid(a310b6fb23590cc44bde4288e940cce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e380f9f0fa2170ac1ddcb07a6a7113d3') in 0.128636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Prefabs/FireBall001.prefab
+  artifactKey: Guid(86fed04854292e3469193e23ce2408dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FireBall001.prefab using Guid(86fed04854292e3469193e23ce2408dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe78db2c8ff3a07dced3cffc810b87d') in 0.035313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Prefabs/FIreBallBig.prefab
+  artifactKey: Guid(c4f85a849422c864ca74b89ac66c2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FIreBallBig.prefab using Guid(c4f85a849422c864ca74b89ac66c2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2bfd3270c29abfc210f21edce5ea58') in 0.026152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Prefabs/Pause Menu Canvas.prefab
+  artifactKey: Guid(a3a15e128d7d9414b8d9ea0170f5e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pause Menu Canvas.prefab using Guid(a3a15e128d7d9414b8d9ea0170f5e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afc9fb61fd5b80c44ebb36b1c484bd4') in 0.099241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.300164 seconds.
+  path: Assets/Scenes/Cutscene1.unity
+  artifactKey: Guid(551f13c703e928849a9b175e07021123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cutscene1.unity using Guid(551f13c703e928849a9b175e07021123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e55b4e8efd36b3859e23c62baa48ef0') in 0.008963 seconds 
