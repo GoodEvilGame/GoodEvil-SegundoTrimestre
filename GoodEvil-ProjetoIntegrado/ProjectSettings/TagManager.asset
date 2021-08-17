@@ -9,6 +9,7 @@ TagManager:
   - Back
   - Up
   - Music
+  - BigFire
   layers:
   - Default
   - TransparentFX
