@@ -1812,7 +1812,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bb212335b29369c4895f43c465370d3a, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 0.25
   m_Pitch: 1
   Loop: 1
@@ -1923,7 +1923,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17df1c05934a69543afdf4430f3b6368, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CorridorMusic: {fileID: 501390739}
 --- !u!1 &521849531
 GameObject:
   m_ObjectHideFlags: 0

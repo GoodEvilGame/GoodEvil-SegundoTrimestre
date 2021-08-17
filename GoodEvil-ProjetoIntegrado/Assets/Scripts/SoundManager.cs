@@ -11,7 +11,7 @@ public class SoundManager : MonoBehaviour
         source = GetComponent<AudioSource>();
     }
 
-    public void PlaySound(AudioClip sans){
-        source.PlayOneShot(sans);
+    public void PlaySound(AudioClip sound){
+        source.PlayOneShot(sound);
     }
 }
