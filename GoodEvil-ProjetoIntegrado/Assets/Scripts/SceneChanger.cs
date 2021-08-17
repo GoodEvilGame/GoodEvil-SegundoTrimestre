@@ -5,26 +5,32 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float timer = 5;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if(timer >= -1){ 
+            timer -= Time.deltaTime;
+             //Limita o contador até -1 para não sobrecarregar o sistema e desconta 1 por segundo na variável do contador
+        }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Up"))
+        if (other.CompareTag("Up")) 
+        //Compara se o player colidiu com um objeto com tag "up"
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            if(timer <= 0){ 
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); 
+                //Se o tempo de espera do timer já acabou, carrega a próxima cena
+            }
         }
-        if(other.CompareTag("Back"))
+        if(other.CompareTag("Back")) 
+        //Compara se o player colidiu com um objeto com tag "back"
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            if(timer <= 0){
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + - 1);
+                 //Se o tempo de espera do timer já acabou, carrega a cena anterior
+            }
         }
     }
 }
