@@ -12,6 +12,8 @@ public class HealthManager : MonoBehaviour
     public int maxMana = 10;
     public float regenMana = 0.5f;
 
+    public Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +25,7 @@ public class HealthManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        anim = GetComponent<Animator>();
     }
 
     private void Regenerate()
@@ -47,7 +49,7 @@ public class HealthManager : MonoBehaviour
     public void Heal(int value)
     {
         curHealth += value;
-
+        anim.SetTrigger("heal");
         NormalizeHealth();
     }
 

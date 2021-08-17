@@ -6,7 +6,9 @@ public class DialogueTutorialAtivator : MonoBehaviour
 {
     public GameObject DialogueAtivator1;
     public GameObject DialogueAtivator2;
+    public SkillController damakosSkillController;
     public int contador = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,15 +26,18 @@ public class DialogueTutorialAtivator : MonoBehaviour
         {
             if (contador == 0)
             {
+                damakosSkillController.enabled = false;
                 DialogueAtivator1.SetActive(true);
                 contador++;
             }
         }
-        else if (other.CompareTag("BigFire"))
+
+        if (other.CompareTag("BigFire"))
         {
             if (contador == 1)
             {
                 DialogueAtivator2.SetActive(true);
+                damakosSkillController.enabled = false;
             }
         }
     }

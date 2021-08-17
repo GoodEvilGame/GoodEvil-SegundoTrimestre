@@ -1097,6 +1097,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6006835702795087127, guid: a310b6fb23590cc44bde4288e940cce1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a310b6fb23590cc44bde4288e940cce1, type: 3}
 --- !u!1 &1227325619
@@ -1170,6 +1174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   placa: {fileID: 1367764914}
+  DialogueBox: {fileID: 0}
   trigger: 0
 --- !u!1 &1229626848
 GameObject:
@@ -1648,7 +1653,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7233887609091188812, guid: a3a15e128d7d9414b8d9ea0170f5e4d0, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7233887609091188812, guid: a3a15e128d7d9414b8d9ea0170f5e4d0, type: 3}
       propertyPath: m_AnchorMax.x

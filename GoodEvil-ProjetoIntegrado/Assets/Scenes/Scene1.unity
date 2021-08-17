@@ -3408,6 +3408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   placa: {fileID: 604679342}
+  DialogueBox: {fileID: 0}
   trigger: 0
 --- !u!1 &710878310
 GameObject:
@@ -7805,6 +7806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   placa: {fileID: 748560411}
+  DialogueBox: {fileID: 0}
   trigger: 0
 --- !u!1 &1443915001
 GameObject:
@@ -9647,6 +9649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   placa: {fileID: 902775046}
+  DialogueBox: {fileID: 0}
   trigger: 0
 --- !u!1 &1655889010
 GameObject:
@@ -11563,6 +11566,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6006835702795087126, guid: a310b6fb23590cc44bde4288e940cce1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6006835702795087127, guid: a310b6fb23590cc44bde4288e940cce1, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

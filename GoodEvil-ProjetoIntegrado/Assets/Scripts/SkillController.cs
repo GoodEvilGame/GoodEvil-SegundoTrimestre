@@ -26,6 +26,7 @@ public class SkillController : MonoBehaviour
         //Escuta as teclas vinculada a cada skill
         if (Input.GetKeyDown(KeyCode.Mouse0)) InstanciateSkill(fireBallSmall);
         if (Input.GetKeyDown(KeyCode.Mouse1)) InstanciateSkill(fireBallBig);
+        if (Input.GetKeyDown(KeyCode.Alpha1)) healthManager.Heal(20);
     }
 
     void InstanciateSkill(GameObject skillPrefab)
