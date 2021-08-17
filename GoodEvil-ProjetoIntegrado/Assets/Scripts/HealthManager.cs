@@ -8,10 +8,15 @@ public class HealthManager : MonoBehaviour
     public int maxHealth = 100;
     public float regenHealth = 0.5f;
 
+    public int curMana;
+    public int maxMana = 10;
+    public float regenMana = 0.5f;
+
     // Start is called before the first frame update
     void Start()
     {
         curHealth = maxHealth;
+        curMana = maxMana;
         InvokeRepeating("Regenerate", 0.0f, 1/regenHealth);
     }
 
@@ -23,10 +28,8 @@ public class HealthManager : MonoBehaviour
 
     private void Regenerate()
     {
-        if(curHealth < maxHealth )
-        {
-            curHealth++;
-        }
+        if (curHealth < maxHealth) curHealth++;
+        if (curMana < maxMana) curMana++;
     }
 
     public void Damage(int damage)
@@ -41,11 +44,21 @@ public class HealthManager : MonoBehaviour
         NormalizeHealth();
     }
 
-    public void Heal(int heal)
+    public void Heal(int value)
     {
-        curHealth = maxHealth;
+        curHealth += value;
 
         NormalizeHealth();
+    }
+
+    public void ReduceMana(int value)
+    {
+        if(curMana < value)
+        {
+            throw new System.ArgumentException("Mana value too high");
+        }
+
+        curMana -= value;
     }
 
     public bool Alive()
@@ -70,6 +83,7 @@ public class HealthManager : MonoBehaviour
             curHealth = maxHealth;
         }
     }
+
 
     public void Dead()
     {
