@@ -8845,6 +8845,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1130581936}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &745635082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9472,6 +9484,7 @@ GameObject:
   - component: {fileID: 829725188}
   - component: {fileID: 829725190}
   - component: {fileID: 829725191}
+  - component: {fileID: 829725192}
   m_Layer: 0
   m_Name: dummy
   m_TagString: Enemy
@@ -9585,7 +9598,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DialogueAtivator1: {fileID: 1593636849}
   DialogueAtivator2: {fileID: 2012993024}
+  damakosSkillController: {fileID: 1130581936}
   contador: 0
+--- !u!114 &829725192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829725187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12fdb65f669bfd0428c7d04dca768bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curHealth: 0
+  maxHealth: 100
+  regenHealth: 0.5
+  curMana: 0
+  maxMana: 10
+  regenMana: 0.5
+  anim: {fileID: 0}
 --- !u!1 &835266577
 GameObject:
   m_ObjectHideFlags: 0
@@ -12334,6 +12367,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6006835702795087127, guid: a310b6fb23590cc44bde4288e940cce1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a310b6fb23590cc44bde4288e940cce1, type: 3}
 --- !u!95 &1105953949 stripped
@@ -12703,6 +12740,17 @@ PlayableDirector:
     value: {fileID: 1105953949}
   m_ExposedReferences:
     m_References: []
+--- !u!114 &1130581936 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6006835702795087127, guid: a310b6fb23590cc44bde4288e940cce1, type: 3}
+  m_PrefabInstance: {fileID: 1105953948}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf440f12e90c76949b151cbf791a97cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1137318736
 GameObject:
   m_ObjectHideFlags: 0
@@ -24701,6 +24749,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1130581936}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &2114064029
 MonoBehaviour:
